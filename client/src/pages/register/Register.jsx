@@ -22,9 +22,9 @@ const Register = () => {
       });
 
       setSuccessMessage("Usuario creado satisfactoriamente")
-      setTimeout(() => {
-        user.data && window.location.replace('/login')
-      }, 3000);
+      // setTimeout(() => {
+      //   user.data && window.location.replace('/login')
+      // }, 3000);
      
     } catch (error) {
       console.log(error.response.data)
