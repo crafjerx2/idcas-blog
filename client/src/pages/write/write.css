@@ -54,6 +54,7 @@
 .writeText {
   font-size: 16px;
   border: 1px solid #ccc;
+  margin-bottom: 1rem;
 }
 
 .writeSubmit {

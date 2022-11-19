@@ -38,10 +38,10 @@ const Register = () => {
       <div className="registerTitle">IDCAS Blog Registrate</div>
       <form className="registerForm" onSubmit={handleSubmit} >
           { errorMessages.length ?
-            <Notification message={errorMessages[0].msg} type="error  " /> : ''
+            <Notification message={errorMessages[0].msg} type="error" /> : ''
           }
           { successMessage ?
-            <Notification message={successMessage} type="error  " /> : ''
+            <Notification message={successMessage} type="" /> : ''
           }
           <label>Nombre</label>
           <input 

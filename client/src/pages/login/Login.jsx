@@ -1,13 +1,16 @@
-import React, { useContext, useEffect, useRef } from 'react'
+import React, { useContext, useState, useRef } from 'react'
 import api from '../../api/posts.js';
 import { Link } from 'react-router-dom';
 import './login.css'
 import { Context } from '../../context/Context.js';
+import Notification from '../../components/notification/Notification.jsx';
+
 
 const Login = () => {
   const emailRef = useRef();
   const passwordRef = useRef();
   const { dispatch, isFetching } = useContext(Context)
+  const [errorMessages, setErrorMessages] = useState([])
 
   const handleLogin = async e => {
     e.preventDefault()
@@ -25,6 +28,7 @@ const Login = () => {
       } catch (error) {
         dispatch({ type: "LOGIN_FAILURE" })
         console.log(error)
+        setErrorMessages(error.response.data);
       }
   }
 
@@ -34,6 +38,10 @@ const Login = () => {
     <div className="login">
       <div className="loginTitle">IDCAS Blog Login</div>
       <form className="loginForm" onSubmit={handleLogin}>
+        { errorMessages.length ?
+            <Notification message={errorMessages[0].msg} type="error" /> : ''
+          }
+
           <label>Email</label>
           <input 
             type="email" 

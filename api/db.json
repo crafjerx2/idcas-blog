@@ -54,6 +54,12 @@
       "email": "jjhtbebe@fsdfsd.com",
       "password": "$2b$10$n/Yn0j8qspicoNcshXZKcuAxHvqZTAMKXj2Ykjl1hkqqpH8QvcVP2",
       "id": 9
+    },
+    {
+      "name": "Joe been",
+      "email": "joe@gmail.com",
+      "password": "$2b$10$fvEIHoyiBzRtAemqxvj9b.qrzNMB5rI2GNuhOwh0ATSnR0vukc6Ba",
+      "id": 10
     }
   ],
   "posts": [
@@ -148,6 +154,22 @@
       "userId": 2,
       "category": "Pruebas",
       "id": 11
+    },
+    {
+      "title": "Configurar Cypress",
+      "content": "asdasdasdas",
+      "image": "https://cdn.pixabay.com/user/2022/08/25/06-52-36-900_250x250.jpg",
+      "userId": 10,
+      "category": "Api Testing",
+      "id": 12
+    },
+    {
+      "title": "Cypress ",
+      "content": "asdasdas",
+      "image": "https://cdn.pixabay.com/user/2016/12/11/13-20-48-387_250x250.png",
+      "userId": 10,
+      "category": "Automaticas",
+      "id": 13
     }
   ],
   "categories": [
