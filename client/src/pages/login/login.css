@@ -1,0 +1,64 @@
+.login {
+  height: calc(100vh - 50px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background:  linear-gradient(rgba(255,255,255, .1), rgba(255,255,255, .1)),url(https://cdn.pixabay.com/photo/2018/11/17/07/10/notebook-3820634_960_720.jpg);
+  background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.loginTitle {
+  font-size: 50px;
+  font-weight: 600;
+  color: #666;
+  margin-top: 100px;
+}
+.loginForm {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.loginForm > label {
+  margin: 10px 0;
+}
+
+.loginForm > input {
+  padding: 15px;
+  border: none;
+  background: white;
+  background: #e5f0f4;
+  border-radius: 3px;
+}
+.loginForm > input:focus {
+  outline: none;
+}
+
+.loginSubmit {
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: salmon;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+}
+.loginSubmit:disabled {
+  cursor: not-allowed;
+  background-color: rgb(235, 153, 143)
+}
+
+.loginRegister {
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  cursor: pointer;
+  background-color: teal;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+}

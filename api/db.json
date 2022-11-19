@@ -1,0 +1,235 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "carlos",
+      "email": "carlos@gmail.com",
+      "password": "123"
+    },
+    {
+      "name": "Carlos",
+      "email": "cpineda@idcas.edu.do",
+      "password": "$2b$06$2S0ZdVoK83ckWv3uZumBdOnH2aVgB3m/Elot6wM8TxxvnKcabXrui",
+      "image": "https://cdn.pixabay.com/photo/2015/11/26/00/14/woman-1063100_960_720.jpg",
+      "id": 2
+    },
+    {
+      "name": "Carlos",
+      "email": "cpineda@idcas.edu.do",
+      "password": "$2b$06$fxjifFAkRAiWyyl4Wpe31uhjPrP/dc66ISPmx/6mGySsUUji6os3u",
+      "id": 3
+    },
+    {
+      "name": "tim",
+      "email": "tim@gmail.com",
+      "password": "$2b$10$52UpjNoeNibUAYMQxG2GNOogvJBFSIyCUYjpO1fb.7Op/6vP9SVzS",
+      "id": 4
+    },
+    {
+      "name": "jin",
+      "email": "jin@gmail.com",
+      "password": "$2b$10$Qiv9ybiRLvyKxPQrTL.Zw.3k3ziLlul9cwqmrU.AA96HwNMHCr8Gm",
+      "id": 5
+    },
+    {
+      "name": "jam",
+      "email": "jam@gmail.com",
+      "password": "$2b$10$QPQpoQDLwZbEy50bs6l4RuOkrcSt6jKtH0f.TvX1NR.DmUd8tYySe",
+      "id": 6
+    },
+    {
+      "name": "jon",
+      "email": "jon@gmail.com",
+      "password": "$2b$10$KLTVpoOUKykf6aRSk1gegu0EN9Xl0qpWeb6Zr7O6t47Rvkag9EIcO",
+      "id": 7
+    },
+    {
+      "name": "jemans",
+      "email": "jemas@gmail.com",
+      "password": "$2b$10$P5KZllLUGxCTOmcv6hLSCOWUV7hKzManM4mKcQlNwm.nhYP02SKzu",
+      "id": 8
+    },
+    {
+      "name": "jjhtbebe",
+      "email": "jjhtbebe@fsdfsd.com",
+      "password": "$2b$10$n/Yn0j8qspicoNcshXZKcuAxHvqZTAMKXj2Ykjl1hkqqpH8QvcVP2",
+      "id": 9
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "Configurar un proyecto Js",
+      "content": "bla bla bla",
+      "createdAt": "Thu Oct 06 2022",
+      "image": "https://cdn.pixabay.com/photo/2022/08/18/20/18/red-maple-leaves-7395624_960_720.jpg",
+      "status": "published",
+      "userId": 1,
+      "category": "Prueba"
+    },
+    {
+      "id": 2,
+      "title": "Instalar un proyecto Js",
+      "content": "bla bla bla",
+      "createdAt": "Thu Oct 05 2022",
+      "image": "https://cdn.pixabay.com/photo/2019/06/19/07/13/email-4284157_960_720.png",
+      "status": "draft",
+      "userId": 2,
+      "category": "ISTQB"
+    },
+    {
+      "title": "Instalar un projecto Java  ",
+      "content": "abc",
+      "image": "https://cdn.pixabay.com/user/2022/08/25/06-52-36-900_250x250.jpg",
+      "userId": "1",
+      "category": "testing",
+      "id": 3
+    },
+    {
+      "title": "Instalar un projecto Java 2",
+      "content": "abc",
+      "image": "https://cdn.pixabay.com/user/2022/03/01/11-08-12-943_250x250.jpg",
+      "userId": "1",
+      "category": "testing",
+      "id": 4
+    },
+    {
+      "title": "Instalar un projecto Java 3",
+      "content": "abc",
+      "image": "https://cdn.pixabay.com/user/2022/04/04/03-25-17-252_250x250.jpg",
+      "userId": "1",
+      "category": "testing",
+      "id": 5
+    },
+    {
+      "title": "Instalar un projecto Java 4",
+      "content": "abc",
+      "image": "https://cdn.pixabay.com/user/2022/08/25/06-52-36-900_250x250.jpg",
+      "userId": "1",
+      "category": "testing",
+      "id": 6
+    },
+    {
+      "title": "Instalar un projecto Java 5",
+      "content": "abc",
+      "image": "https://cdn.pixabay.com/user/2022/09/08/19-19-09-260_250x250.jpg",
+      "userId": "1",
+      "category": "testing",
+      "id": 7
+    },
+    {
+      "title": "Instalar un projecto Java 56",
+      "content": "abc",
+      "image": "https://cdn.pixabay.com/user/2020/07/25/21-10-11-80_250x250.jpg",
+      "userId": "1",
+      "category": "testing",
+      "id": 8
+    },
+    {
+      "title": "Instalar un projecto Java 12",
+      "content": "abc",
+      "image": "https://cdn.pixabay.com/user/2017/10/05/20-01-51-531_250x250.jpg",
+      "userId": "1",
+      "category": "testing",
+      "id": 9
+    },
+    {
+      "title": "flkasdas",
+      "content": "asdasdasd",
+      "image": "https://cdn.pixabay.com/photo/2019/06/19/07/13/email-4284157_960_720.png",
+      "userId": 2,
+      "category": "e2e Testing",
+      "id": 10
+    },
+    {
+      "title": "New Post",
+      "content": "acvd",
+      "image": "https://cdn.pixabay.com/user/2016/12/11/13-20-48-387_250x250.png",
+      "userId": 2,
+      "category": "Pruebas",
+      "id": 11
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Prueba",
+      "status": "ac"
+    },
+    {
+      "id": 1,
+      "name": "Automaticas",
+      "status": "ac"
+    },
+    {
+      "id": 1,
+      "name": "Certificación",
+      "status": "ac"
+    },
+    {
+      "id": 1,
+      "name": "ISTQB",
+      "status": "ac"
+    },
+    {
+      "id": 1,
+      "name": "SQL",
+      "status": "ac"
+    },
+    {
+      "id": 1,
+      "name": "Cypress",
+      "status": "ac"
+    },
+    {
+      "id": 1,
+      "name": "Javascript",
+      "status": "ac"
+    },
+    {
+      "id": 1,
+      "name": "Programación",
+      "status": "ac"
+    },
+    {
+      "id": 1,
+      "name": "Selenium",
+      "status": "ac"
+    },
+    {
+      "id": 1,
+      "name": "Pruebas",
+      "status": "ac"
+    },
+    {
+      "id": 1,
+      "name": "ágiles",
+      "status": "ac"
+    },
+    {
+      "id": 1,
+      "name": "Pruebas",
+      "status": "ac"
+    },
+    {
+      "id": 1,
+      "name": "Manuales",
+      "status": "ac"
+    },
+    {
+      "id": 1,
+      "name": "e2e Testing",
+      "status": "ac"
+    },
+    {
+      "id": 1,
+      "name": "Post",
+      "status": "ac"
+    },
+    {
+      "id": 1,
+      "name": "Api Testing",
+      "status": "ac"
+    }
+  ]
+}
