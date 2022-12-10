@@ -22,5 +22,5 @@ app.use('/api/categories', routeCategory)
 
 const port = 5000
 app.listen(port, () => {
-  console.log('app is running in ', port)
+  console.log('app is running in ', port);
 })
